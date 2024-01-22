@@ -1,0 +1,44 @@
+
+form{
+    padding: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgb(0 0 0 / 10%);
+    transition: 0.3s;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+input:focus{
+    border: 2px solid #86b7fe;
+}
+input::placeholder{
+    color: rgb(0 0 0 / 30%);
+}
+.register button , .register-nav{
+    outline: none;
+    border: none;
+    background-color: #488bef;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.register button:hover , .register-nav:hover{
+    background-color: white;
+    border: 2px solid #86b7fe;
+    color: #86b7fe;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 0;
+}
