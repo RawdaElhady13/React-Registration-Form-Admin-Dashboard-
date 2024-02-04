@@ -8,7 +8,7 @@ This Project Consist of:
 -Admin Dashboard Page Consist of :-
 1-Users Table that Contain all User Registered on the Website (Using Axios get API) to get all users from backend
 2-the admain can delete any user by pressing in the delete icon (Using Axios delete )
-3-the admain can Update userdata by pressing in the Update icon
-4-Also the admain can Add New User 
+3-the admain can Update userdata by pressing in the Update icon , Also the admain can Add New User 
+
 
 
