@@ -1,11 +1,14 @@
 This Project Consist of:
--Authentication and Authorization Login and Register pages with the errors that may be occurs during the Sumbit and using (axios Post )to send the UsersData to the database 
- ,after send the data ,it stored in (Context and Cookies) and (Access Token) created so I can used it in any page in the project without using props And Avoiding the Props Drilling
--Dasdboard Page contain Users,New User and UpdateUser by Using (reacr-router-dom Package) that Contains {Browser Routes ,Routes, Route>=nested-Route,NavLink}
- Anyone Can't Reach this Pages Without login So I created RequireAuth Page to do that by check the Access Token in the Cookie(Protected Routes)
--Users Page contains the data of each user by Using API Fetch (axios get) that brought the data from Database And I can delete the User by Using (axios delete )
--In the Update Page I used the Id of each User to get his data from database and Update it then send the update data to the database again by using axios Post 
- using (Refresh Token) when the site refreshed to get anew Token to Provide (More Secuirty to the Website)
- in the Update And Create Pages I Used A Component Forms with The Props to get a clean Code .
- 
+-JWT Authentication Flow for User Register & User Login & Logout
+-Project Structure for React JWT Authentication with Cookies, React Router & Axios & Context & Refresh Token & APIs Rest & Protected Routes
+-Creating React Components with Form Validation
+-React Components for accessing protected Resources (Authorization)
+-Dynamic Navigation Bar in React App
+-RequireLogin Page to allow only registered user to go to admin dashboard
+-Admin Dashboard Page Consist of :-
+1-Users Table that Contain all User Registered on the Website (Using Axios get API) to get all users from backend
+2-the admain can delete any user by pressing in the delete icon (Using Axios delete )
+3-the admain can Update userdata by pressing in the Update icon
+4-Also the admain can Add New User 
+
 
