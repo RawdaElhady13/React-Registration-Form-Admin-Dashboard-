@@ -30,7 +30,6 @@ This Project(Registration Form And Admin Dashbord) Consist of:
 
 
 
-NOTE: this project need to run (npm start) React server And (php artisan serve) laravel server And XAMPP
 
 
 
