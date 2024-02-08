@@ -4,7 +4,7 @@ This Project(Registration Form And Admin Dashbord) Consist of:
 -JWT Authentication Flow for User Register & User Login & Logout
 
 
--Project Structure for React JWT Authentication with Cookies, React Router & Axios & Context & Refresh Token & APIs Rest & Protected Routes
+-Project Structure for React JWT Authentication with [ Cookies, react-router-dom & Axios & Context & Refresh Token & APIs Rest & Protected Routes ]
 
 
 -Creating React Components with Form Validation
